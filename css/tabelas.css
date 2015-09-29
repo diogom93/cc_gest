@@ -1,0 +1,65 @@
+/* tabela */
+
+.div_tabela {
+    width:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+thead {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.tabela {
+
+  padding: 20px 10px;
+  border-spacing: 5px;
+  width: 100%;
+    
+
+}
+
+.table_body {
+
+  text-align: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+}
+
+.tabela_header th {
+
+  color: white;
+  background-color: rgba(20, 50, 20, 0.7);
+} 
+
+.value {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.eurosign {
+  font-style: italic;
+  color:goldenrod;
+}
+
+.table_body tr{
+  
+  transition:  all linear 0.15s;
+  cursor: pointer;
+}
+
+.table_body tr:hover{
+  
+  background-color: #A3C2FF;
+  
+}
+
+tr.selected{
+  
+  background-color: #A3A0FF;
+  
+}

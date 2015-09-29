@@ -1,0 +1,119 @@
+.conteudo{
+  font-family: 'Helvetica';
+}
+
+
+.pesquisa_gestao{
+
+  float:left;
+  margin-top:0px;
+  margin-left: 505px;d
+  clear:both;
+  margin-right: 0px;
+
+}
+
+
+.search_text{
+  float:right;
+  clear: right;
+}
+
+
+.pesquisa_gestao.cc{
+
+  float:left;
+  margin-left: 5px;
+  margin-top:10px;
+  margin-bottom: 0px;
+  clear:none;
+  display: inline-block;
+
+}
+
+
+.search_text.cc{
+
+  float:right;
+}
+
+.button{
+ margin-top: 10px;
+ margin-bottom: 5px;
+  
+}
+
+.filtro{
+  margin-left: 20px;
+  margin-bottom:15px;
+  font-size: 18px;
+  display: block;
+
+}
+
+select:not(#caixa_filtro){
+  float:left;
+  margin-top: 10px;
+}
+
+.title_gestint{
+  clear:left;
+  float:left;
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-top: 10px;
+
+}
+
+
+.secc_operacoes{
+  margin-top: 20px;
+  margin-bottom:0px;
+  display:block;
+}
+
+.field{
+  float: left;
+  width: 30%;
+  margin-top:10px;
+  margin-bottom: 15px;
+  display: inherit; 
+}
+
+.field_desc{
+  float: left;
+  width: 45%;
+  margin-bottom:15px;
+  margin-top:15px;
+  height: 100px;
+  display: inherit; 
+  clear:right;
+}
+
+.title_end_date {
+  float: left;
+  width: 100px;
+}
+
+.c_end_date {
+  width: auto;
+  float: left;
+  clear: right;
+  margin-right: 75px;
+}
+
+.searchbox {
+  float: right;
+  clear: right;
+}
+
+.div_tabela{
+  float:left;
+  clear: both;
+}
+
+.tabela{
+  float: left;
+  clear: both;
+  margin-top: 30px;
+}

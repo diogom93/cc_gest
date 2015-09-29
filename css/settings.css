@@ -1,0 +1,65 @@
+.conteudo {
+	font-family: 'Helvetica';
+}
+
+.filtro {
+	margin-left: 20px;
+	margin-bottom:15px;
+	font-size: 18px;
+	display: block;
+}
+
+.button { 
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.title_email_act, .title_email_n{
+	clear: left;
+	width: 20%;
+	float: left;
+	text-align: right;
+	margin-left: 0px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.title_pass_act, .title_pass_n, .title_pass_nr {
+	clear: left;
+	width: 30%;
+	float: left;
+	text-align: right;
+	margin-left: 0px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.field_email_act, .field_email_n {
+	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	display: block;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+.field_pass_act, .field_pass_n, .field_pass_nr {
+	width: 25%;
+	height:auto;
+	margin-top: 5px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+.warn {
+	width: 25%;
+	padding-top: 10px;
+	display: block;
+	text-align: left;
+	float: left;
+}

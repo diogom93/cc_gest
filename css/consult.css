@@ -1,0 +1,34 @@
+.content {
+
+	font-family: 'Helvetica';
+	font-size: 15px;
+
+}
+
+.searchbox {
+	margin-bottom: 5px;
+}
+
+.title_cabs {
+
+	font-weight: bold;
+	clear: left;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	display: inherit;
+	margin-right: 5px;
+
+}
+
+
+.filtro_cabimentacao{
+
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.div_tabela_r_movements {
+	margin-top: 25px;
+}

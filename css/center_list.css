@@ -1,0 +1,82 @@
+.nomecurto{
+    font-weight:bold;
+}
+
+.info_geral{  
+    clear:left;
+    float:left;
+    display: inline-block;   
+   
+}
+
+.tipo_e_instituicao{
+    margin-left:10%;
+    
+}
+
+.tipo_e_instituicao .txt_tipo{
+    font-weight:bold;
+    
+}
+
+.tipo_e_instituicao .txt_instituicao{
+    font-weight:bold;
+    
+}
+
+.tipo_e_instituicao .geral_conteudo{
+    float: right;
+    margin-left: 25px;
+    
+}
+
+
+.txt_saldo{
+
+    float:initial;
+    font-weight:bold;
+    display: inline-block;
+    
+}
+
+.info_saldo{   
+
+    clear:right;
+    float:right;
+    margin-left:10%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#saldo_conteudo{
+    margin-bottom: 20px;
+
+}
+
+
+.saldos{
+    margin-left:10%;
+    
+}
+
+
+.saldos .txt_disponivel{
+    font-weight:bold;
+    
+}
+
+.saldos .txt_autorizado{
+    font-weight:bold;
+    
+}
+
+.saldos .txt_cativo{
+    font-weight:bold;
+    
+}
+
+.saldos .saldo_conteudo{
+    float: right;
+    margin-left: 25px;
+    
+}

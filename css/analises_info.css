@@ -1,0 +1,126 @@
+ 
+.conteudo {
+
+	font-family: 'Helvetica';
+}
+
+.info_title{
+
+  float: left;
+  clear: both;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-bottom: 10px;
+
+}
+
+.info_txt{
+
+  float: left;
+  font-size: 17px;
+  margin-left: 5px;
+  margin-right:25px;
+  margin-bottom: 10px;
+
+}
+
+.botao {
+
+  width: 125px;
+  float:right;
+  /*clear: right;*/
+  margin: auto;
+  margin-top: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #668066;
+  border: 1px solid #275225;
+  border-radius: 3px;
+  transition: all ease-in 0.1s;
+}
+
+#content .botao{
+
+  margin-bottom: 15px;
+  cursor: pointer
+}
+
+.botao:hover {
+  
+  color: #275225;
+  background-color: #D4EEDD;
+  
+  
+}
+
+.botao.cont{
+
+  float:right;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+
+.botao.cancel{
+
+  float:left;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+.info_title.explanation{
+
+  margin-top: 20px;
+}
+
+.field_explanation{
+  width: 60%;
+  margin-top: 20px;
+  height: 25%;
+  display: block;
+
+}
+
+ul.general_info{
+    margin-top: 20px;
+    width: 100%;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+
+ul.general_info li{
+    width: 49%; /* because shut up */
+    display: inline-block;
+    margin-bottom: 10px; 
+}
+ul.general_info li:last-child{
+  float:left;
+    width: 100%;
+    display: block;
+  margin-top: 10px;
+    margin-bottom: 5px; 
+}
+
+
+ul.general_info .info_title, ul.general_info .info_txt{
+    clear: none;
+    float: none;
+}
+
+label.info_txt{
+
+    resize: none;
+    float: left;
+    width:85%;
+    font-family : 'Helvetica';
+    font-size: 16px;
+  text-align: justify;
+    font-weight: normal;
+    min-height:150px;
+    overflow: hidden;
+  margin-left: 55px;
+    
+    
+}

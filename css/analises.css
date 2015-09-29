@@ -1,0 +1,30 @@
+
+.searchbox{
+  
+  float: right;
+}
+
+.div_filtro_e_pesquisa{
+  margin: 10px 30px;
+  margin-bottom: 40px;
+}
+
+
+.pesquisa_cabs_trans{
+
+  float: right;
+  clear: right; 
+  margin-top: 0px;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+
+.texto_filtro{
+
+  font-weight: bold;
+  clear:left;
+  float:left;  
+  display: block;
+  margin-right: 10px;
+}

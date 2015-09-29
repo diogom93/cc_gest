@@ -1,0 +1,78 @@
+ 
+.conteudo {
+
+	font-family: 'Helvetica';
+}
+
+.info_title{
+
+  float: left;
+  clear: both;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-bottom: 10px;
+
+}
+/*.info_title.next_column{
+
+  margin-left: 40px;
+
+}*/
+
+.info_txt{
+
+  float: right;
+  clear: right;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right:25px;
+  margin-bottom: 10px;
+
+}
+
+
+ul.saldo_info {
+
+  margin-right:60px;
+
+}
+
+
+
+ul.general_info{
+    width: 100%;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+
+ul.general_info li{
+    width: 49%; /* because shut up */
+    display: inline-block;
+    margin-bottom: 7px; 
+}
+
+
+ul.general_info .info_title, ul.general_info .info_txt{
+    clear: none;
+    float: none;
+}
+
+label.info_txt{
+
+    width: auto;
+    text-align: justify;
+    font-weight: normal;
+    font-family : 'Helvetica';
+    margin-left: 60px;
+    font-size: 15px;
+    min-height:130px;
+    
+    
+}
+
+.saldos {
+	font-size:17px;
+	margin-left: 60px;
+
+}

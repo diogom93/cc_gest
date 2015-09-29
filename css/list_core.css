@@ -1,0 +1,219 @@
+div.master{
+	display: inline-block;
+	clear: left;
+	min-height: 120px;
+	min-width: 100%;
+	margin : 0 auto;
+}
+
+.core_body, .core_info{
+	overflow: auto;
+	display: block;
+}
+
+.core_info {
+	overflow: hidden;
+}
+
+.master .core_info {
+	width: 75%;
+	float: left;
+}
+
+.act_buttons {
+	height: 0px;
+	position: relative;
+	right: -60px;
+	top: -110px;
+	width: 300px;
+	display: block;
+	float: right;
+	bottom: 0;
+	transform: rotate(90deg);
+}
+
+.core_label {
+  float: left;
+  width : 35%;
+  font-size: 0.9em;
+  color: #00250C;
+  margin-right: 0.5em;
+  padding-top: 0.2em;
+  text-align: right;
+  font-weight: bold;
+  font-family : 'Helvetica', Arial, Verdana, sans-serif;
+}
+
+.master .core_label.field {
+	width: 25%;
+}
+
+#ti_core_ul .core_label.field{
+	width: 40%;
+
+}
+
+.core_info ul{
+	overflow: hidden;
+	list-style-type: none;
+	clear: left;
+	width: 100%;
+	height: 100%;
+	margin-left : 0px;
+	padding: 0;
+}
+
+#center_core_ul,
+#cab_core_ul,
+#ti_core_ul,
+#person_core_ul,
+#movement_core_ul,
+#activity_core_ul:not( .master ){
+	
+	display: inline-block;
+	list-style-type: none;
+	width: 100%;
+	height: auto;
+	margin : 0;
+	padding: 0;
+}
+
+
+.value {
+	width: auto;
+	padding-left: 15px;
+	text-align: left;
+	font-weight: normal;
+}
+
+#center_core_ul li .member .value,
+#cab_core_ul li .member .value,
+#ti_core_ul li .member .value,
+#person_core_ul li .member .value,
+#movement_core_ul li .member .value,
+#activity_core_ul:not( .master )  li .member .value{
+	
+	width: auto;
+	
+}
+#center_core_ul li .member,
+#cab_core_ul li .member,
+#ti_core_ul li .member,
+#person_core_ul li .member,
+#movement_core_ul li .member,
+#activity_core_ul:not( .master )  li .member{
+	
+	width: 100%;
+	
+}
+li {
+	
+	width: 100%;
+	clear:both;
+	
+}
+
+.member{
+	margin-top: 15px;
+	width: 100%;
+}
+
+.master .botao {
+  display: inline-block;
+	float: right;
+  width: 125px;
+  margin-top: 0px;
+  margin-right: 0px;
+  color: white;
+  font-weight: bold;
+  background-color: #668066;
+  border: 1px solid #275225;
+  border-radius: 3px;
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+	transform: rotate(-90deg);
+}
+
+.master .botao.similar {
+	width: 160px;
+	margin-right: -60px;
+}
+
+.master .botao:hover {
+  
+  color: #275225;
+  background-color: #D4EEDD;
+  
+}
+
+#core_popper {
+	overflow: hidden;
+	padding: 15px;
+	background-color: rgba( 255, 255, 255, 0.85);
+	display: none;
+	position: absolute;
+	float: left;
+	border: 1px solid grey;
+	border-radius: 7px 0px 7px 0px;
+	
+	
+}
+
+#core_popper.core_info.ct_center .core_container {
+	overflow: hidden;
+	width: 400px;
+	min-height: 280px;
+	
+}
+
+#core_popper.core_info.ct_activity .core_container {
+	overflow: hidden;
+	width: 340px;
+	min-height: 150px;
+	
+}
+
+#core_popper.core_info.ct_cab .core_container {
+	overflow: hidden;
+	float: left;
+	width: 350px;
+	min-height: 170px;
+	
+}
+
+#core_popper.core_info.ct_ti .core_container {
+	overflow: hidden;
+	float: left;
+	width: 350px;
+	min-height: 150px;
+	
+}
+
+#core_popper.core_info.ct_person .core_container {
+	overflow: hidden;
+	float: left;
+	width: 400px;
+	min-height: 170px;
+	
+}
+
+#core_popper.core_info.ct_movement .core_container {
+	overflow: hidden;
+	float: left;
+	width: 350px;
+	min-height: 170px;
+	
+}
+
+.core_container{
+	border: 0px;
+	z-index:3;
+}
+
+
+.core_node {
+	width: 100%;
+	font-size: inherit;
+	text-align: inherit;
+	font-weight: normal;
+}

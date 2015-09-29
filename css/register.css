@@ -1,0 +1,87 @@
+div#register{
+  display: inline-block;
+  clear: left;
+  font-family: 'Helvetica';
+  
+}
+
+form#register label:not(.warn){
+  float: left;
+  clear: left;
+  font-size: 17px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+form#register label:last-of-type:not(.warn){
+  float: left;
+  clear: right;
+  margin: 0 auto;
+  padding-right: 10px;
+  
+  
+}
+
+.field_user, .field_pw, .field_email, .field_address{
+  width: 55%;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+
+.field_pw2{
+  width: 55%;
+  margin-top: 13px;
+  margin-bottom: 25px;
+}
+
+
+.field_nif, .field_telephone{
+  width: 25%;
+  margin-bottom: 15px;
+  clear:right;
+  float:left;
+}
+
+
+.field_type{
+  display: inline-block;
+  width: 20%;
+  float: left;
+  margin-top:3px;
+}
+.field_category{
+  display: block;
+  width: 20%;
+  float:left;
+  margin-top:3px;
+}
+
+form#register .button
+{
+  display: inline-block;
+  clear: both;
+  width: 25%;
+}
+
+
+.warn{
+  display: inline-block;
+  width:20%;
+  font-size: 10px;
+  margin-top:5px;
+  color: red;
+  float: right;
+  clear: right;
+}
+
+.warn#u_pw2_val{
+  
+  padding-top: 12px;
+  
+}
+
+select.u_cat {
+  width: 166px;
+  
+}select#u_type{
+  width: 110px;
+}

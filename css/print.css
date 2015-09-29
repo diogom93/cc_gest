@@ -1,0 +1,23 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#content, #header{
+	padding: 10px;
+	margin: 10px;
+}
+
+nav, #login, #menu {
+	display: none;
+}
+
+#login input {
+	display: block;
+	margin-bottom: 5px;
+}
+
+a {
+	color: #336699;
+	text-decoration: none;
+}

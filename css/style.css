@@ -1,0 +1,366 @@
+html{
+  overflow-y: scroll;
+  background-image: url("../img/general_background.png");
+}
+
+
+body {
+  margin : 0 auto;
+  margin-top : 0px;
+  width : 57em;  /*  912px wide @ 16pt => 912/16= 57 */
+  font-family : 'Helvetica', Arial, Verdana, sans-serif
+}
+header, footer {
+  background-color: #72BA6E;
+  border-radius: 3px;
+  color : white;
+  font-weight : bold;
+}
+header {
+  border-radius: 0px 0px 3px 3px;
+  padding: 25px;
+  text-align: center;
+  font-size: 1.2em;
+  text-decoration: none;
+  
+}
+
+header p {
+  margin: 5px;
+}
+
+footer {
+  padding: 2px;
+  clear : both;
+  font-size : 0.9em;
+}
+
+footer p {
+  margin: 0px;
+  margin-right: 15px;
+}
+
+nav {
+  margin-top : 5px;
+  margin-bottom : 5px;
+}
+h1, .title {
+  margin-top : 10px;
+  margin-bottom : 15px;
+  text-transform : uppercase;
+  font-weight : bold;
+  color : #557853;
+  background-color: transparent;
+}
+h1 { 
+  font-size : 1.6em;
+}
+.title {
+  font-size : 1.2em;
+}
+
+
+#login, #menu, #content {
+  background-color: rgba( 255, 255, 255, 0.4);
+  border : 1px solid #275225;
+  border-radius : 2px;
+  padding : 10px;
+}
+
+
+.list_sub_subtopic_form{
+
+  margin-left: 15px;
+  margin-bottom:0px;
+  margin-top:0px;
+}
+
+ .list_sub_subtopic_form a{
+  color: #26798C;
+  margin-bottom:0px;
+  margin-top:0px; 
+}
+
+
+
+#login, #menu {
+  width : 160px;
+}
+#menu {
+  float : left;
+  margin-bottom : 5px;
+  font-weight : bold;
+}
+#menu ul {
+  list-style-type : none;
+  list-style-image : none;
+  margin : 0;
+  padding : 0;
+}
+#menu li {
+  font-size : 1.0em;
+  padding : 0;
+  margin : 0;
+  transition: all linear 0.1s;
+}
+
+
+.list_topic{
+  
+  display: block;
+  margin-top: 5px;
+  color: #282E2E;
+}
+
+.list_subtopic a{
+  margin-left: 5px;
+}
+
+#login {
+  float : left;
+  clear : left;
+  margin-bottom : 5px;
+}
+#login input:not(.button) {
+  display : block;
+  margin-bottom : 5px;
+  width: 155px;
+}
+
+.button {
+  width: 125px;
+  float:right;
+  /*clear: right;*/
+  clear:both;
+  margin: auto;
+  margin-top: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #668066;
+  border: 1px solid #275225;
+  border-radius: 3px;
+  transition: all ease-in 0.1s;
+  
+}
+
+#content .button{
+
+  margin-bottom: 15px;
+  cursor: pointer
+}
+
+.button:hover {
+  
+  color: #275225;
+  background-color: #D4EEDD;
+  
+  
+}
+
+
+#content {
+  margin-left : 188px;
+  margin-bottom : 5px;
+}
+ul {
+  list-style-type : none;
+  list-style-image : none;
+  margin : 0;
+  padding : 0;
+}
+li { 
+  padding : 0;
+  margin : 0;
+}
+a {
+  color : #26798C;
+  text-decoration : none;
+  padding: 1px;
+  transition: all ease-in 0.15s;
+  
+}
+
+
+#menu a:hover {
+ text-decoration: none;
+  color : #4E8787;
+  padding: 3px;
+}
+
+header a {
+  color : white;
+  font-size: 2.0em;
+  text-decoration : none;
+  transition: all ease-in 0.15s;
+}
+
+header a:hover {
+  color : #DEF5DC;
+  font-size: 2.2em;
+  text-decoration : none;
+}
+
+footer a {
+  color : white;
+  text-decoration : underline;
+}
+fieldset {
+  padding: 1em;
+}
+label {
+  float: left;
+  width : 15%;
+  font-size: 0.9em;
+  color: #00250C;
+  margin-right: 0.5em;
+  padding-top: 0.2em;
+  text-align: right;
+  font-weight: bold;
+}
+#login label { 
+  float : none;
+}
+
+/* I dived as deep as this.
+ * Added pretty hover things.
+ * ~ Meira
+*/
+
+
+table {
+  border-collapse : collapse;
+}
+table,th, td {
+  border : 1px solid black;
+  padding : 4px;
+}
+.message  {
+  border-radius : 5px;
+  display : block;
+  color : white;
+  background-color : #339933;
+  text-align : center;
+  padding : 10px;
+  margin-bottom : 3px;
+}
+th
+{
+  color : white;
+  background-color : blue;
+}
+.error {
+  color: red;
+  background-color: transparent;
+}
+#errors .error {
+  border-radius : 5px;
+  display : block;
+  color : white;
+  background-color : #993333;
+  text-align : center;
+  padding : 10px;
+  margin-bottom : 3px;
+}
+.left { 
+  text-align : left;
+}
+
+.center { 
+  text-align : center;
+}
+
+.right { 
+  text-align : right;
+}
+
+.navtext {
+  font-weight : bold;
+}
+
+
+/* POPUPS */
+
+.popup {
+  font-family : 'Helvetica', Arial, Verdana, sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  background: rgba(0,0,0, .3);
+  transition: opacity .25s ease;
+}
+
+.popup_background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.popup_state {
+  display: none;
+}
+
+.popup_state:checked + .popup {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup-state:checked + .popup .popup_interior {
+  top: 0;
+}
+
+.popup_interior {
+  transition: top .25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin: auto;
+  overflow: auto;
+  background: #fff;
+  border : 1px solid #275225;
+  border-radius : 3px;
+  padding: 1em 2em;
+  height: 270px;
+}
+
+.popup_close {
+  position: absolute;
+  right: 0em;
+  top: -0.2em;
+  width: 0em;
+  height: 0em;
+  cursor: pointer;
+  transform: rotate(45deg);
+  color: #ccc;
+  font-size: 2em;
+}
+
+.popup_close:hover {
+  color: #aaa;
+}
+
+
+.searchbox{
+  
+  float: right;
+  clear: right;
+}
+
+.search_text {
+  padding:2px 5px;
+  background:rgba(200, 200, 200, 0.1);
+  border:1px solid black;
+  border-radius: 10px 0 10px 0;
+}

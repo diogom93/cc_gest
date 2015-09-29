@@ -1,0 +1,284 @@
+.button.rej {
+  float:left;
+  clear:left;
+  margin: auto;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #668066;
+  border: 1px solid #275225;
+  border-radius: 3px;
+  transition: all ease-in 0.1s;
+  
+}
+
+.button.under_table {
+  margin-top:20px;
+}
+
+#content .button.rej{
+
+  margin-bottom: 15px;
+  cursor: pointer
+}
+
+.button.rej:hover {
+  
+  color: #275225;
+  background-color: #D4EEDD;
+  
+  
+}
+
+
+.btn{
+  
+  margin-top: 7px;
+  clear:left;
+}
+
+.pesquisa_cabs{
+
+  float: right;
+  clear: right; 
+  margin-top: 115px;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+
+.pesquisa_trans{
+
+  margin-top: 35px;
+  float: right;
+  clear: right; 
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.conteudo{
+  font-family: 'Helvetica';
+}
+
+
+.button{
+ margin-top: 10px;
+ margin-bottom: 5px;
+  
+}
+
+.filtro{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  display: inline-block;
+
+}
+
+.filtro_cabimentacao{
+ 
+  display: inline-block;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  
+}
+
+.secc_operacoes{
+  display:block;
+}
+
+.title_value {
+  float: left;
+  clear: left;
+  font-size: 15px;
+  display:inline-block;
+}
+
+.field_value{
+  float: left;
+  width: 25%;
+  margin-bottom: 15px;
+  display: block;
+  
+}
+
+.field_institution{
+  float: left;
+}
+
+.title_supporter {
+  float: left;
+  clear: left;
+  font-size: 15px;
+  display:block;
+}
+
+.field_supporter{
+  width: 25%;
+  margin-bottom: 15px;
+  display: block;
+  clear:right;
+  float:left;
+}
+
+.title_benef {
+  margin-top:10px;
+  float: left;
+  clear: left;
+  font-size: 15px;
+  display:block;
+}
+
+.field_benef{
+  margin-top: 10px;
+  display: block;
+  float: left;
+  margin-bottom: 5px;
+  clear: right;
+
+}
+
+.title_activity {
+  font-size: 15px;
+  margin-bottom: 10px;
+  clear:left;
+  float:left;
+  display: block;
+  font-weight: bold;
+  
+}
+
+
+.title_description {
+  clear: left;
+  float: left;
+  font-size: 15px;
+  margin-bottom: 10px;
+  display: block;
+  
+}
+
+.div_tabela{
+  float: left;
+}
+
+.field_description{
+  width: 40%;
+  height: 60px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  display:block;
+  float: left;
+  
+}
+
+
+.title_type {
+  clear:left;
+  float:left;
+  font-size: 15px;
+ /* margin-top:15px; */
+  display: inline-block;
+  
+}
+
+.filtro_movimento {
+  display: inline-block;
+  margin-bottom: 15px;
+  
+}
+
+.title_institution {
+  clear:left;
+  float:left;
+  font-size: 15px;
+  margin-bottom: 10px;
+  display: inherit;
+  
+}
+
+.field_institution{
+  width: 50%;
+  clear:right;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  display: inline-block;
+  
+}
+
+.title_choices {
+  font-size: 15px;
+  margin-bottom: 10px;
+  clear:left;
+  /*float:left;*/
+  display: block;
+  font-weight: bold;
+  margin-top:5px;
+  
+}
+
+
+.activity {
+  width: 200px;
+  color: #26798C;
+  font-weight: bold;
+  clear:left;
+  float:left;
+  text-align: left;
+  text-decoration: underline;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  
+}
+.activity:hover {
+  color: #00478F;
+  
+}
+
+.title_cabs {
+  width: auto;
+  clear:left;
+  float:left;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  display: inherit;
+}
+
+.warn{
+  display: block;
+  width:20%;
+  font-size: 10px;
+  text-align: left;
+  margin-left:15px;
+  color: red;
+  float:left;
+}
+
+.warn.under_table{
+  
+  position:absolute;
+  display:inline-block;
+  margin-left: 550px;
+  float:right;
+  margin-right: 0px;
+}
+
+.btn span{
+  cursor: pointer;
+}
+
+.title_te {
+  display:block;
+  width: 100%;
+  text-align: center;
+  clear: both;
+  float: none;
+  margin-bottom: 20px;
+}
+
+
+label.large {
+  width: 20%;
+}

@@ -1,0 +1,43 @@
+.acordeao {
+    overflow: hidden;
+    font-family:'Helvetica';
+}
+
+/* secÃ§Ãµes */
+
+.acc_seccao_titulo {
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    transition: all linear 0.2s;
+    background: #085;
+    font-size: 1.100em;
+    font-family: 'Helvetica';
+    color: white;
+    text-shadow: 1px 1px darkgreen;
+    
+    
+}
+
+.acc_seccao_titulo.active, .acc_seccao_titulo:hover
+{
+    background: #32d18a;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.10em;
+    color: white;
+    text-shadow: 1px 1px darkgreen;
+}
+
+.acc_seccao:last-child .acc_seccao_titulo {
+    border-bottom: none;
+}
+
+.acc_seccao_conteudo {
+    font-size: 16px;
+    padding: 15px;
+    display: none;
+    font-weight:normal;
+       
+}

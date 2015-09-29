@@ -1,0 +1,41 @@
+h2 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+form.activity_factory span{
+  display: block;
+  width: auto;
+  float: left;
+  clear: both;
+  margin: 10px;
+  
+}
+
+form.activity_factory .c_end_date{
+  width: auto;
+  float: right;
+  clear: right;
+  margin-right: 75px;
+}
+form.activity_factory .c_end_date label{
+  width: auto;
+}
+
+form.activity_factory label{
+  width: 100px;
+}
+
+form.activity_factory .c_buttons {
+  float:none;
+  margin: 15px;
+}
+
+form.activity_factory .c_buttons .button{
+ margin-top:40px;
+}
+
+form.activity_factory .c_buttons .button_cancel {
+  float: left;
+
+}
